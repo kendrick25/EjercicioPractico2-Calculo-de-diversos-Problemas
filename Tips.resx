@@ -1,0 +1,129 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>En esta parte se mostrarán la cantidad de unidades y el precio total de importe por 
+vehículo, esto será de forma automática si no se muestra algunos de estos campos es por
+que algún campo se encuentra vacío.
+
+
+</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>Segun el tipo de vehiculo seleccionado en el combobox se habilitaran distintas opciones.
+Si es bicicleta tendra una cantidad de unidades estandar, solo se le tendraque asignar el
+valor de las unidades que se desee. si  es carro o moto se habilitara el numero de Km 
+recorrido, Precio por unidad , y la cantidad de unidades dependera de los Km recorridos,
+si se selecciona camion se hablitaran los mismos controles que en el caso anterio pero 
+adicionalmete se agregara un valor adicional de cantidad de unidades dependiendo del
+ peso en toneladas ingresados.</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>En este problema se ingresarán el monto que adeuda el cliente mediante un textbox
+ que solo admite valores enteros y decimales, y el textbox donde se ingresa el valor 
+de días de atraso solo acepta valores enteros.</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>El botón calcular solo se mostrarán cuando se seleccione el modo manual. Y el 
+botón Limpiar campos solo será visible una vez se realce algún calculo. Solo se 
+podrá activar "Calcular “ si no hay ningún campo vacío.
+
+
+
+</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Estos textos solo acepta ingreso de caractres tipo numerico enteros, no se permite la 
+entrada de 0 en ningun textbox,  en el textbox de alario del trabajador se permiten 
+numeros decimales con un punto.</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>Si está habilitada la opción registrar, y si el textbox #de Cliente y #de Factura no están
+vacíos y el registro que vas a ingresar no existe, se mostrara el botón registrar, si no se 
+cumplen las condiciones no se hará visible. Para el botón Imprimir factura se 
+deshabilitarán todos los controles a excepción del #de Cliente ya que en este 
+ingresaremos el numero o ID del cliente que deseamos obtener la factura. Para el
+botón editar se deshabilitar todos los campos a excepción del #de cliente #de Factura,
+en el cual se pueden usar para buscar una cliente o factura especifica, pero también se
+podrá modificar directamente la tabla o agregar otro directamente. En el botón borrar 
+según el número del cliente se puede borrar todos sus registros o si quieres ser más 
+específico solo borrara la factura seleccionada del cliente.
+
+Importante: En el modo edición el usuario es responsable del formato de ingresión de 
+los datos.
+
+
+
+</value>
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>Los textbox se habilitarán o deshabilitarán dependiendo de la opción que se escoja. 
+No s podrán ingresar datos vacíos ni tampoco que inicien con 0, también contara con 
+un límite máximo que permite el programa (1,313,486,231,570)
+</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>El combobox de Tipo de Llamada contara con tres opciones Nacional, Nacional a larga 
+distancia y llamada internacionales dependiendo de lo escogido cambiara el costo, el 
+programa recoge la hora actual registrada en el sistema para determinar el costo total.
+EL combobox de Opciones determinar que acción se llevara a cabo, dependiendo de la
+escogida se habilitara diferentes funcionalidades.
+</value>
+  </data>
+</root>
